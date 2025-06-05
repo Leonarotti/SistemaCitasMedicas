@@ -14,3 +14,5 @@ Contaba con las siguientes limitaciones:
   
 Aquí el enunciado del proyecto:
 [PROYECTO I - Sistema de citas médicas - 06 de abril.pdf](https://github.com/Leonarotti/Leonarotti.github.io/files/14900987/PROYECTO.I.-.Sistema.de.citas.medicas.-.06.de.abril.pdf)
+
+Para iniciar sesión, ingresar como medico con la cédula 05-5555-5555 y la contraseña 123 (Por razones de prueba)
