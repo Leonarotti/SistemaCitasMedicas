@@ -1,8 +1,8 @@
-if (!user) {
-  window.location.href = "/HTML-Pages/login.html";
-}
-
 document.addEventListener('DOMContentLoaded', function () {
+  if (!user) {
+    window.location.href = "/HTML-Pages/login.html";
+  }
+
   let selectedDate = null;
   let isMedico = false;
 

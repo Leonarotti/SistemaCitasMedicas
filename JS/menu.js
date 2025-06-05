@@ -1,8 +1,10 @@
-const header = document.querySelector("header");
-const footer = document.querySelector("footer");
 const user = JSON.parse(localStorage.getItem('login_success')) || false;
 
-header.innerHTML = `<div class="content">
+document.addEventListener("DOMContentLoaded", function () {
+    const header = document.querySelector("header");
+    const footer = document.querySelector("footer");
+
+    header.innerHTML = `<div class="content">
 <div class="menu container">
     <a href="/index.html" class="logo">
         Clínica Árbol de Seda
@@ -25,7 +27,7 @@ header.innerHTML = `<div class="content">
 </div>
 </div>`;
 
-footer.innerHTML = `<p>&copy; 2024 Clínica Árbol de Seda - Derechos reservados</p>
+    footer.innerHTML = `<p>&copy; 2024 Clínica Árbol de Seda - Derechos reservados</p>
 <a href="/HTML-Pages/faq.html">Preguntas frecuentes</a>
 <p class="hid">|</p>
 <a href="/HTML-Pages/contacto.html">Contacto</a>
@@ -33,10 +35,11 @@ footer.innerHTML = `<p>&copy; 2024 Clínica Árbol de Seda - Derechos reservados
 <a href="/HTML-Pages/politicas.html">Política de privacidad & Términos de uso</a>
 `;
 
-if (user) {
-    document.getElementById('login').style.display = 'none'
-    document.getElementById('logout').style.display = 'block'
-}
+    if (user) {
+        document.getElementById('login').style.display = 'none'
+        document.getElementById('logout').style.display = 'block'
+    }
+});
 
 const logout = () => {
     alert('Hasta pronto!');
