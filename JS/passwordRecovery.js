@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
         
         setTimeout(function() {
             alert("Se ha enviado un correo electrónico con instrucciones para recuperar la contraseña.");
-            window.location.href = "/HTML-Pages/login.html";
+            window.location.href = "./HTML-Pages/login.html";
         }, 1000);
     });
 });

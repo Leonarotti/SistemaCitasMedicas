@@ -9,7 +9,7 @@ const handleFormSubmit = (event) => {
     const isValid = validateForm(formData);
     if (isValid) {
         registerUser(formData);
-        window.location.href = '/HTML-Pages/login.html';
+        window.location.href = './HTML-Pages/login.html';
     }
 };
 
