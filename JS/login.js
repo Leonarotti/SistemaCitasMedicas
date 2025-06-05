@@ -45,7 +45,7 @@ const loginUser = async (formData) => {
     if (isPasswordCorrect) {
         alert(`Bienvenido ${user.name}`);
         localStorage.setItem('login_success', JSON.stringify(user));
-        window.location.href = '/HTML-Pages/agenda.html';
+        window.location.href = '../HTML-Pages/agenda.html';
     } else {
         failedLoginAttempts++;
         alert('Usuario y/o contraseña incorrectos');

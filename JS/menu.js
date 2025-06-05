@@ -45,5 +45,5 @@ const logout = () => {
     alert('Hasta pronto!');
     localStorage.removeItem('login_success');
     document.getElementById('logout').style.display = 'none'
-    window.location.href = 'index.html';
+    window.location.href = '../index.html';
 };
