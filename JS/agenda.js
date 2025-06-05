@@ -1,5 +1,5 @@
 if (!user) {
-  window.location.href = "./HTML-Pages/login.html";
+  window.location.href = "/HTML-Pages/login.html";
 }
 
 document.addEventListener('DOMContentLoaded', function () {

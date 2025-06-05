@@ -14,7 +14,7 @@ const loginUser = () => {
             if (isPasswordCorrect) {
                 alert(`Bienvenido ${medico.nombre}`);
                 localStorage.setItem('login_success', JSON.stringify(medico));
-                window.location.href = './HTML-Pages/agenda.html';
+                window.location.href = '/HTML-Pages/agenda.html';
             } else {
                 alert('Usuario y/o contraseña incorrectos');
             }

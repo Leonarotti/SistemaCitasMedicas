@@ -1,5 +1,5 @@
 const getMedics = () => {
-    return fetch('./utility/medics.json') // Cargar archivo JSON
+    return fetch('/utility/medics.json') // Cargar archivo JSON
         .then(response => {
             if (!response.ok) {
                 throw new Error('No se pudo cargar el archivo JSON');
